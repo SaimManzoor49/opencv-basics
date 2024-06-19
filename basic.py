@@ -21,8 +21,8 @@ img = cv.Canny(img,125,175)
 # Resizing
 # img = cv.resize(img,(500,500),interpolation=cv.INTER_CUBIC)
 
-# Cropping
-img = img[50:200,200:400]
+# Cropping / 
+# img = img[50:200,200:400] 
 
 cv.imshow('Image',img)
 cv.waitKey(0)

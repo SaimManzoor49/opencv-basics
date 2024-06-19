@@ -41,5 +41,7 @@ croppedImg = img[200:400,300:400]
 
 cv.imshow("cropped",croppedImg)
 
+
+
 cv.waitKey(0)
 cv.destroyAllWindows()
