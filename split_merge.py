@@ -18,7 +18,7 @@ img = cv.merge((b,g,r))
 blank = np.zeros(img.shape[:2],dtype='uint8')
 
 
-img = cv.merge([b,blank,blank])
+img = cv.merge([b,blank,blank]) 
 
 cv.imshow('img',img)
 

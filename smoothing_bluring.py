@@ -14,6 +14,11 @@ img = cv.resize(img,(400,400))
 # MedianBlur
 # img = cv.medianBlur(img,3)
 
+# Bilateral Blur it retains edges
+img = cv.bilateralFilter(img,3,15,15)
+
+
+
 
 
 cv.imshow('img',img)

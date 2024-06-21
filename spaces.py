@@ -19,7 +19,7 @@ img = cv.resize(img,(500,500))
 # BGR to RGB 
 
 img = cv.cvtColor(img,cv.COLOR_BGR2RGB) 
-# Here by above line opencv will show inverted image as it uses BGR color formate
+# Here by above line opencv will show inversion image as it uses BGR color formate
 
 cv.imshow('img',img)
 
