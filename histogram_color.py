@@ -8,7 +8,7 @@ img = cv.resize(img,(400,400))
 # creating mask
 blank = np.zeros(img.shape[:2],dtype='uint8') 
 
-circle = cv.circle(blank,(img.shape[1]//2,img.shape[0]//2),100,255,-1)
+circle = cv.circle(blank,(img.shape[1]//2,img.shape[0]//2),10-0,255,-1)
 
 # mask = cv.bitwise_and(img,img,mask=circle)
 
